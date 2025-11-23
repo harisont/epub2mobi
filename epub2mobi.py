@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+from functools import reduce
 import os
 
 def epub2mobi(fromdir, todir, ignore_if=None):
